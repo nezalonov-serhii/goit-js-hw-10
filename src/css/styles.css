@@ -10,6 +10,11 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+}
+
+p {
+  margin: 0px;
 }
 
 #search-box {
@@ -17,4 +22,45 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+body {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.capital {
+  font-size: 30px;
+}
+
+.flags {
+  width: 100px;
+  height: auto;
+
+  margin-right: 20px;
+}
+
+.wrap_flag {
+  display: flex;
+  align-items: center;
+}
+
+.wrap_flag_list {
+  display: flex;
+  align-items: center;
+}
+
+.wrap_flag_list:not(:last-child) {
+  margin-bottom: 10px;
 }
