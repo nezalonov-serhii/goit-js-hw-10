@@ -14,6 +14,3 @@ function fetchCountries(name) {
 }
 
 export { fetchCountries };
-
-// Notiflix.Notify.success('Sol lucet omnibus');
-// Notiflix.Notify.failure('Qui timide rogat docet negare');
